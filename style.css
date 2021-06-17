@@ -1,0 +1,286 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 15px;
+}
+
+h1 {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 40px;
+    color:#333;
+}
+
+.wrapper {
+    max-width: 940px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+ul {
+    list-style: none;
+}
+
+.dot {
+    color:rgb(236, 116, 17);
+}
+
+.logo {
+    color:rgb(236, 116, 17);
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+}
+
+h2 {
+    color: #333;
+    font-size: 50px;
+}
+h4 {
+    font-size: 24px;
+    color: #333;
+}
+p {
+    line-height: 1.4;
+    color: #777;
+}
+.clear {
+    clear: both;
+}
+small {
+    font-size: 13px;
+    font-style: italic;
+}
+h3 {
+    font-size: 30px;
+    color: #333;
+}
+
+
+
+/* HEADER */
+header {
+    height: 120px;
+}
+
+header h1 {
+    float: left;
+    margin: 32px 20px;
+}
+
+header nav {
+    float: right;
+    margin-top: 50px;
+}
+header nav ul li {
+    float: left;
+    display: inline-block;
+   
+}
+header nav ul li a {
+    text-transform: upperCase;
+    margin-right: 40px;
+    font-size: 0.8em;
+    font-weight: bold;
+}
+header nav ul li a:hover{
+    border-bottom: 1px solid rgb(236, 116, 17) ;
+    color: rgb(236, 116, 17);
+}
+
+
+/* Main */
+ #main {
+     height: 610px;
+     background: url('images/pexels-aleksandar-pasaric-1285625.jpg') no-repeat center center/cover;
+ }
+ #main h2 {
+    font-weight: normal;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 150px 0 40px 0;
+ }
+ 
+
+ .toutdesuit {
+     font-weight: bold;
+     font-size: 40px;
+ }
+
+ .btn-1 {
+     width: 150px;
+     height: 50px;
+     display: block;
+     background-color: rgb(231, 108, 36);
+     text-align: center;
+     font-size: 18px;
+     margin: 0 auto; 
+     line-height: 50px;   
+     color: #333;
+     border-radius: 20px;
+     border: none;;
+  
+ }
+ 
+ .btn-1:hover {
+    color: #f4f4f4;
+    background-color: rgb(241, 156, 86);
+}
+
+/* STEPS */
+
+#steps ul {
+    margin: 80px 0;
+}
+#steps ul li  {
+    width: 280px;   
+    padding-top: 140px;
+    float: left;
+    text-align: center;
+    margin-right: 25px;
+}
+#steps p {
+    margin-bottom: 20px;
+}
+#steps h4 {
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    margin-
+}
+#step-1 {
+    background: url('images/steps-1.png') no-repeat top center;
+}
+#step-2 {
+    background: url('images/steps-2.png') no-repeat top center;
+}
+#step-3 {
+    background: url('images/steps-3.png') no-repeat top center;
+}
+
+/* Possibilities */
+
+.trip {
+    background: url('images/trip-1.jpg') no-repeat center center/cover;
+}
+.trip-2 {
+    background: url('images/trip2.jpg') no-repeat center center/cover;
+}
+
+#possib {
+    padding: 60px 0;
+    background-color: #efefef;
+}
+#possib article {
+    width: 440px;
+    height: 270px;
+    float: left;
+    border-radius: 10px;
+}
+#possib article:first-child {
+    margin-right: 20px;
+}
+
+.overlay {
+        background: rgb(255, 255, 255, 0.9);
+        height: 100%;
+        width: 200px;
+        padding: 20px;
+        border-radius: 10px 0 0 10px;
+        text-align: center;
+}
+article h4 {
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 20px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    text-align: center;
+}
+#possib p {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.btn-2 {
+    color: #f4f4f4;
+    background-color:rgb(231, 108, 36);
+    padding: 8px 20px;
+    border-radius: 5px;
+  
+}
+.btn-2:hover {  
+    color: #f4f4f4;
+    background-color:rgb(248, 144, 83);
+
+}
+
+/* Contact */
+#contact {
+    padding: 60px 0;
+    text-align: center;
+}
+
+#contact h3 {
+    text-transform: uppercase;
+    border-bottom: 1px solid orange;
+    margin: 0  auto 20px auto;
+    width: 400px;
+    padding-bottom: 20px;
+}
+
+form {
+    margin: 60px 0 20px 20px;
+}
+
+label {
+    font-weight: bold;
+    font-size: 20px;
+    margin-right: 10px;
+    color: #777;
+}
+
+input[type="text"] {
+    padding: 8px;
+    font-size: 16px;
+    margin-right: 20px;
+    border: solid 2px #ddd;
+    border-radius: 5px;
+
+}
+
+.btn-contact {
+    color: #f4f4f4;
+    font-size: 18px;
+    padding: 10px;
+    font-weight: bold;
+    background-color: rgb(231, 108, 36);
+    border-style: none;
+    border-radius: 5px;
+}
+.btn-contact:hover {
+    background-color: #333;
+    
+}
+    
+/* FOOTER */
+footer {
+    height: 200px;
+    background-color: #333;
+}
+footer h1 {
+    color: #f4f4f4;
+    text-align: center;
+    padding-top: 50px;
+}
+.copyright {
+    font-weight: bold;
+    text-align: center;
+    padding-top: 30px;
+    color: #777;
+    font-size: 13px;
+}
